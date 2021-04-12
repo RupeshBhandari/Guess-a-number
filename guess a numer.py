@@ -2,7 +2,7 @@ import random
 from termcolor import colored
 import time
 import sys
-import os
+
 
 flag = True
 while flag == True:
@@ -31,6 +31,3 @@ while flag == True:
         flag = False
         
         
-os.system('git add .')
-os.system("git commit -m 'updated program with colors'")
-os.system('git push')
