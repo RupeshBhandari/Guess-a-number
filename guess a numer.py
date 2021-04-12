@@ -7,8 +7,7 @@ import sys
 flag = True
 while flag == True:
     random_number = random.randint(1, 10)
-    print(random_number)
-    user_input = int(input(colored("       Enter a number from 1 to 10>>   ",'blue')))
+    user_input = int(input(colored("\n       Enter a number from 1 to 10>>   ",'blue')))
     if user_input == random_number:
         right_string = "\n               ( ͡° ͜ʖ ͡°)                Yay, you've guessed it correctly!"
         for i in right_string:
